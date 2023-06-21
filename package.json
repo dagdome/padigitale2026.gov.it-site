@@ -16,6 +16,10 @@
     "pa11y": "chmod +x pa11y.sh && ./pa11y.sh",
     "serve": "gatsby serve"
   },
+  "engines": {
+    "npm": ">=8.0.0",
+    "node": ">=14.15.4 <=16.20.0"
+  },
   "dependencies": {
     "@fontsource/lora": "^4.5.0",
     "@fontsource/titillium-web": "^4.5.0",
@@ -28,8 +32,11 @@
     "gatsby-plugin-google-tagmanager": "3.14.0",
     "gatsby-plugin-image": "^1.14.1",
     "gatsby-plugin-matomo": "0.10.0",
+    "gatsby-transformer-yaml": "3.14.0",
+    "gray-matter": "4.0.3",
     "jwt-decode": "^3.1.2",
-    "luxon": "^2.0.2",
+    "luxon": "^2.5.2",
+    "mustache": "4.2.0",
     "prop-types": "^15.7.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -53,7 +60,7 @@
     "gatsby-transformer-remark": "^3.2.0",
     "gatsby-transformer-sharp": "^3.14.0",
     "gh-pages": "^3.2.3",
-    "pa11y-ci": "^2.4.2",
+    "pa11y-ci": "^3.0.1",
     "remark-attr": "^0.11.1"
   }
 }
