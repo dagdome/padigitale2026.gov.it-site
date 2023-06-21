@@ -5,5 +5,5 @@
     sidebar:
     - sectionTitle: Renato Ex
       sectionId: renato-example
-      sectionActive: false
+      sectionActive: True
 ---
