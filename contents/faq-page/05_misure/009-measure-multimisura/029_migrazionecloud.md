@@ -1,8 +1,8 @@
 ---
   - title: Quale soluzione può essere implementata per la migrazione al Cloud di servizi di diagnostica strumentale che producono dati di grandi dimensioni e con sistemi hardware ad alta intensità di lavoro?
     tag:
-      - Asl/AO
-    anchorLink: 042_migrazionecloud
+      - Generale
+    anchorLink: 029_migrazionecloud
 ---
 
 Per la migrazione di tali servizi può essere sviluppata una soluzione che permetta di scrivere localmente i dati degli applicativi e trasferirli quanto prima, anche attraverso operazioni programmate per gestire lotti massivi (ad es. scheduled job), presso uno o più repository Cloud. 
